@@ -2,7 +2,7 @@
 // Created by younghyun on 19. 1. 9.
 //
 
-#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 #include "kata.h"
 
 TEST(KataTest, DummyReturn0) {
