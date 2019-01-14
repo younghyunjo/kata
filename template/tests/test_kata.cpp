@@ -5,7 +5,9 @@
 #include <gmock/gmock.h>
 #include "kata.h"
 
+using namespace testing;
+
 TEST(KataTest, DummyReturn0) {
     auto ret = dummy();
-    EXPECT_EQ(ret, 0);
+    ASSERT_THAN(ret, Eq(0));
 }
