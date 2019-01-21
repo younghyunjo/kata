@@ -7,6 +7,6 @@
 
 #include <vector>
 
-int price(std::vector<int> buyingBooks);
+double price(std::vector<int> buyingBooks);
 
 #endif //POTTER_H
