@@ -9,5 +9,5 @@ using namespace testing;
 
 TEST(KataTest, DummyReturn0) {
     auto ret = dummy();
-    ASSERT_THAN(ret, Eq(0));
+    ASSERT_THAT(ret, Eq(0));
 }

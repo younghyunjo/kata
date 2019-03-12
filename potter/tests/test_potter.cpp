@@ -65,4 +65,3 @@ TEST(Potter, BuyTwoSameBooksAndOneOtherBook) {
 
     ASSERT_THAT(ret, DoubleEq(expectPrice));
 }
-
